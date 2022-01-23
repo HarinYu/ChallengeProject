@@ -229,7 +229,7 @@ button {
 #todo_form {
   padding: 10px 10px 0 10px;
   background-color: var(--color-dark-grey);
-  opacity: 80%;
+  /* opacity: 80%; */
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
 }
@@ -257,7 +257,7 @@ button {
   background-color: var(--color-dark-grey);
   border-end-end-radius: 20px;
   border-end-start-radius: 20px;
-  opacity: 80%;
+  /* opacity: 80%; */
 }
 
 #todo_list {
@@ -268,6 +268,7 @@ button {
   height: 18vh;
   font-size: var(--font-small);
   overflow: hidden auto;
+  margin-top: -20px;
 }
 #todo_list li {
   margin: 7px 0 7px 0;
