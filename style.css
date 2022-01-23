@@ -261,7 +261,6 @@ button {
 }
 
 #todo_list {
-  opacity: 80%;
   display: none;
   text-align: center;
   font-family: 'Poor Story', cursive;
@@ -379,7 +378,7 @@ button {
   #todo_list {
     font-size: var(--font-regular);
     height: 25vh;
-    padding: 15px;
+    padding: 0 15px 15px 15px;
     text-align: left;
   }
 
