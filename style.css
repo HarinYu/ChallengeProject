@@ -222,16 +222,12 @@ button {
 
 /* TODO */
 
-#todos {
-  margin-top: 30px;
-}
-
 #todo {
-/*   border-radius: 20px; */
+  border-radius: 20px;
 }
 
 #todo_form {
-  padding: 10px;
+  padding: 10px 10px 0 10px;
   background-color: var(--color-dark-grey);
   opacity: 80%;
   border-top-left-radius: 20px;
@@ -250,7 +246,6 @@ button {
 #todo_form button {
   font-size: var(--font-regular);
   color: var(--color-dark-white);
-  /* padding-right: 8px; */
   opacity: 80%;
 }
 
@@ -258,11 +253,17 @@ button {
   color: var(--color-black);
 }
 
+#todoClick {
+  background-color: var(--color-dark-grey);
+  border-end-end-radius: 20px;
+  border-end-start-radius: 20px;
+  opacity: 80%;
+}
+
 #todo_list {
   opacity: 80%;
   display: none;
   text-align: center;
-  background-color: var(--color-dark-grey);
   font-family: 'Poor Story', cursive;
   list-style: none;
   height: 18vh;
@@ -273,12 +274,8 @@ button {
   margin: 7px 0 7px 0;
 }
 #up {
-  opacity: 80%;
   display: none;
   padding-top: 7px;
-  background-color: var(--color-dark-grey);
-  border-end-end-radius: 20px;
-  border-end-start-radius: 20px;
   font-size: 25px;
   color: var(--color-grey);
   width: 100%;
